@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Michroma&family=Noto+Sans+Mono:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bebas+Neue&family=Michroma&family=Noto+Sans+Mono:wght@300&family=Passion+One:wght@700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Michroma&family=Noto+Sans+Mono:wght@300&family=Passion+One:wght@700&family=Roboto:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+}
+
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("images/DSC_8864.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(215, 215, 215);
+}
+
+.banner-content h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(215, 215, 215);
+    font-size: 50px;
+    letter-spacing: 0.1em;
+}
+
+
+.banner-content h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: rgb(215, 215, 215);
+    font-size: 50px;
+    letter-spacing: 0.2em;
+}
+
+.banner-content h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(215, 215, 215);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+}
+
+body {
+    background: #2C3333;
+}
+
+.aboutme-content {
+    padding-top: 50px; /* para madjust yung bg color */
+    padding-bottom: 50px;
+    color: rgb(215, 215, 215);
+    margin-top: 20px;
+}
+
+.aboutme-content p {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 50px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.aboutme-content h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(215, 215, 215);
+    letter-spacing: 0.1em;
+    margin-top: 50px;
+}
+
+.address-content h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 215, 215);
+    letter-spacing: 0.1em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.address-card {
+    background: #395B64 ;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.address-content h4 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 215, 215);
+    letter-spacing: 0.1em;
+}
+
+.address-content h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #D0B8A8;
+    letter-spacing: 0.1em;
+}
+
+.address-content p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 215, 215);
+    letter-spacing: 0.1em;
+}
+
+.music-content1 {
+    display: flex;
+}
+
+.music-content h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 215, 215);
+    letter-spacing: 0.1em;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.music-card {
+    background: #395B64 ;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.music-card h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #D0B8A8;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.music-card p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 215, 215);
+    letter-spacing: 0.1em;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.music-card img {
+    height: 150px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 75px;
+}
+
+.book {
+    padding-top: 50px; /* para madjust yung bg color */
+    padding-bottom: 50px;
+    color: rgb(215, 215, 215);
+    margin-top: 50px;
+}
+
+.book-content img {
+    height: 400px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.book-content {
+    display: flex;
+}
+
+.book-content p{
+    margin-left: 20px;
+    margin-top: 180px;
+    margin-right: 50px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.quote-content {
+    padding-top: 50px; /* para madjust yung bg color */
+    padding-bottom: 50px;
+    color: rgb(215, 215, 215);
+    margin-top: 10px;
+}
+
+.quote-card img {
+    height: 150px;
+    width: 150px;
+    margin-left: 58px;
+    margin-top: 10px;
+    border-radius: 75px;
+}
+
+.quote-card {
+    background: #395B64 ;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.quote-card h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 215, 215);
+    letter-spacing: 0.1em;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.quote-card h4 {
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #D0B8A8;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+}
+
+.quote-content1 {
+    display: flex;
+}
+
+.footer__copyright {
+    background: #648b80;
+    padding: 20px 0;
+}
+
+.footer__copyright h6 {
+    font-size: 1.3rem;
+    color: rgb(215, 215, 215);
+}
+
+.footer__copyright h6{
+    background: #FF9E9E;
+    background: -webkit-linear-gradient(to right, #FFCAC8, #FF9E9E);
+    background: linear-gradient(to right, #C0EEE4, #F8F988);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
